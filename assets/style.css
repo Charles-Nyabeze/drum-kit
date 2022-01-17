@@ -10,7 +10,7 @@ html {
     font-family: sans-serif;
   }
   
-  .theDrums {
+  .theMemes {
     display: flex;
     flex: 1;
     min-height: 100vh;
@@ -18,7 +18,7 @@ html {
     justify-content: center;
   }
   
-  .drumKit {
+  .memeKit {
     border: .4rem solid black;
     border-radius: .5rem;
     margin: 1rem;
@@ -48,4 +48,10 @@ html {
     text-transform: uppercase;
     letter-spacing: .1rem;
     color: #ffc600;
+  }
+
+  .element {
+    animation: 
+      pulse 3s ease infinite alternate, 
+      nudge 5s linear infinite alternate;
   }

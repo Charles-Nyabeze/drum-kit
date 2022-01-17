@@ -1,4 +1,4 @@
-const keys = document.querySelectorAll('.drumKit');
+const keys = document.querySelectorAll('.memeKit');
 const stopMusic = document.querySelector('#stop')
 //on button click add playing = play sound
 window.addEventListener('keydown' , playDrum);
@@ -9,7 +9,7 @@ function playDrum(e) {
     sound.currentTime = 0;
     sound.play();
     //add in class
-    const key = document.querySelector(`.drumKit[data-key="${e.keyCode}"]`);
+    const key = document.querySelector(`.memeKit[data-key="${e.keyCode}"]`);
     key.classList.add('hit');
 };
 
